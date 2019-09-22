@@ -1,4 +1,4 @@
-public class Koeretoej {
+public abstract class Koeretoej extends Test {
 
     int antalHjul;
     int antalPladser;
@@ -7,6 +7,8 @@ public class Koeretoej {
     String farve;
     String navn;
     double veagtTons;
+
+    abstract String fremad();
 
 
 

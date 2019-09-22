@@ -1,4 +1,4 @@
-public class Main{
+public class  Main{
     public static void main(String[] args) {
 
 // her forbinder vi bil1 til vores klasse Bil, som er sat til koeretoej, så bil har samme instansvariabler som koeretoej har.
@@ -13,6 +13,7 @@ public class Main{
         bil1.veagtTons = 0.5;
         bil1.lydSystem = "BOSE";
         bil1.lys =true;
+        bil1.testKoeretoej();
 
         System.out.println(bil1.lydSystem);
 
@@ -41,6 +42,8 @@ public class Main{
 
         System.out.println("I dag flyver vi med" + fly1.navn + " med " + fly1.antalPassengere + " vi får mad fra "
         + fly1.madLevendoer + " med en hastighed på "+ fly1.maxHastighed + "Km/t");
+
+
 
 
     }

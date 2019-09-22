@@ -5,10 +5,12 @@ public class Bil extends Koeretoej {
 
 
 
+   String fremad() {
+      return "Kører";
+   }
 
 
-
-
-
-
+   boolean testKoeretoej() {
+      return true;
+   }
 }

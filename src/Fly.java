@@ -4,4 +4,12 @@ public class Fly extends Koeretoej{
     int antalNoedoeadgange;
     String madLevendoer;
 
+    String fremad() {
+        return "Flyver";
+    }
+
+
+    boolean testKoeretoej() {
+        return true;
+    }
 }

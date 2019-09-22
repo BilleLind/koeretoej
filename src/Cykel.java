@@ -4,11 +4,12 @@ public class Cykel extends Koeretoej{
     int antalPladser = 1;
     boolean forOgBagLygter;
 
+String fremad() {
+    return "cykler";
+}
 
 
-
-
-
-
-
+    boolean testKoeretoej() {
+        return true;
+    }
 }
